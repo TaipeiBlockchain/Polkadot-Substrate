@@ -18,7 +18,7 @@ substrate-node-template/target/release/substrate-node-template --dev
 
 ## 修改 /projects/substrate-ui/src/index.js 中的 setNodeUri
 ```js
-setNodeUri(['ws://xxxxx.ngrok.io/', 'wss://substrate-rpc.parity.io/'])
+setNodeUri(['wss://xxxxx.ngrok.io/', 'wss://substrate-rpc.parity.io/'])
 ```
 ## 再開啟一個新 Terminal
 ```bash
